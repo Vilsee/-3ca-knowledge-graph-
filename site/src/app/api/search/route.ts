@@ -20,7 +20,7 @@ export async function GET(request: Request) {
     });
     
     // Parse the output string that starts with '[' and ends with ']'
-    const jsonMatch = stdout.match(/\[.*\]/s);
+    const jsonMatch = stdout.match(/\[[\s\S]*\]/);
     if (jsonMatch) {
       return NextResponse.json({ results: JSON.parse(jsonMatch[0]) });
     } else {
