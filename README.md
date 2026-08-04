@@ -36,6 +36,14 @@ If granted more time, the system can be expanded by:
 3. **Deep Embeddings**: Swapping TF-IDF for dense vector embeddings once full abstract/summary text is scraped.
 4. **Graph DB Migration**: Pushing the full NetworkX topology into a hosted Neo4j instance for proper Cypher querying at scale.
 
+## Dashboard Screenshots
+
+![Explore Tab](docs/explore_tab.jpg)
+*The Explore Tab featuring data filters, metrics, and cross-dataset insights.*
+
+![Graph Tab](docs/graph_tab.jpg)
+*The interactive Knowledge Graph rendering Study, Cancer, and Disease nodes.*
+
 ## How to Run
 
 Clone the repository and set up your virtual environment:
