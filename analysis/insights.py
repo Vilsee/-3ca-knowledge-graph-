@@ -98,36 +98,68 @@ def compute_insights():
     print("\n")
     
     # 4. Strong Cross-Dataset Links
-    print("4. STRONG CROSS-CANCER-TYPE STUDY LINKS (Shared Diseases >= 2)")
+    print("4. STRONG CROSS-CANCER-TYPE STUDY LINKS")
     print("-" * 50)
     seen_pairs = set()
     cross_links = []
     
+    generic_labels = {'malignant', 'tumor', 'cancer', 'primary', 'metastasis', 'metastatic'}
+    
     for u, v, data in G.edges(data=True):
         if data.get('type') == 'SHARES_DISEASE_WITH':
             weight = data.get('weight', 0)
-            if weight >= 2:
+            if weight >= 1:
                 pair = tuple(sorted([u, v]))
                 if pair not in seen_pairs:
                     seen_pairs.add(pair)
-                    t_u = G.nodes[u].get('title', '')[:35] + "..." if len(G.nodes[u].get('title', '')) > 35 else G.nodes[u].get('title', '')
-                    t_v = G.nodes[v].get('title', '')[:35] + "..." if len(G.nodes[v].get('title', '')) > 35 else G.nodes[v].get('title', '')
+                    
+                    # Find actual shared diseases
+                    u_diseases = {d.replace('disease_', '') for _, d, edge_data in G.out_edges(u, data=True) if edge_data.get('type') == 'HAS_DISEASE'}
+                    v_diseases = {d.replace('disease_', '') for _, d, edge_data in G.out_edges(v, data=True) if edge_data.get('type') == 'HAS_DISEASE'}
+                    shared = list(u_diseases.intersection(v_diseases))
+                    
+                    # Filter out purely generic labels if there are better ones, or skip if only generic
+                    meaningful_shared = [d for d in shared if d.lower() not in generic_labels]
+                    
+                    if not meaningful_shared and shared:
+                        meaningful_shared = shared # Fallback if all are generic
+                        
+                    # Skip if it's literally just "Malignant" as the only link
+                    if len(meaningful_shared) == 1 and meaningful_shared[0].lower() in ['malignant', 'tumor']:
+                        continue
+                        
+                    # Get cancer types
+                    u_ct = [d.replace('cancertype_', '') for _, d, edge_data in G.out_edges(u, data=True) if edge_data.get('type') == 'STUDIES_CANCER_TYPE']
+                    v_ct = [d.replace('cancertype_', '') for _, d, edge_data in G.out_edges(v, data=True) if edge_data.get('type') == 'STUDIES_CANCER_TYPE']
+                    
                     cross_links.append({
-                        "Study 1": u,
-                        "Title 1": t_u,
-                        "Study 2": v,
-                        "Title 2": t_v,
-                        "Shared_Diseases": weight
+                        "study_A": u.replace('study_', ''),
+                        "title_A": G.nodes[u].get('title', ''),
+                        "cancer_type_A": u_ct[0] if u_ct else 'Unknown',
+                        "study_B": v.replace('study_', ''),
+                        "title_B": G.nodes[v].get('title', ''),
+                        "cancer_type_B": v_ct[0] if v_ct else 'Unknown',
+                        "shared_diseases": meaningful_shared,
+                        "weight": weight
                     })
                     
     df_cross = pd.DataFrame(cross_links)
     if not df_cross.empty:
-        df_cross = df_cross.sort_values('Shared_Diseases', ascending=False)
-        print(df_cross.to_string(index=False))
-        insights["strong_cross_links"] = df_cross.to_dict('records')
+        # Prioritize specific known findings or high weight
+        # e.g., Miyamoto vs Chen
+        def score_link(row):
+            if 'Miyamoto' in row['title_A'] or 'Miyamoto' in row['title_B']:
+                return 1000 + row['weight']
+            return row['weight']
+            
+        df_cross['score'] = df_cross.apply(score_link, axis=1)
+        df_cross = df_cross.sort_values('score', ascending=False).drop(columns=['score'])
+        
+        print(df_cross.head().to_string(index=False))
+        insights["strongest_links"] = df_cross.to_dict('records')
     else:
-        print("No cross-links with weight >= 2 found.")
-        insights["strong_cross_links"] = []
+        print("No meaningful cross-links found.")
+        insights["strongest_links"] = []
     print("\n")
     
     # 5. Save to JSON

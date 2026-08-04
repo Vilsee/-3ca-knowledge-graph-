@@ -79,13 +79,13 @@
     {
       "component_id": 4,
       "cancer_types": [
-        "prostate",
-        "neuroendocrine",
-        "breast",
-        "hematologic",
         "lung",
+        "hematologic",
+        "prostate",
         "pancreas",
-        "othermodels"
+        "othermodels",
+        "breast",
+        "neuroendocrine"
       ],
       "num_studies": 77,
       "num_diseases": 34
@@ -488,5 +488,666 @@
       "Pituitary neuroendocrine tumors": 1
     }
   },
-  "strong_cross_links": []
+  "strongest_links": [
+    {
+      "study_A": "1351",
+      "title_A": "Miyamoto et al. 2015",
+      "cancer_type_A": "othermodels",
+      "study_B": "20053",
+      "title_B": "Chen et al. 2021",
+      "cancer_type_B": "prostate",
+      "shared_diseases": [
+        "Prostate cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "1351",
+      "title_A": "Miyamoto et al. 2015",
+      "cancer_type_A": "othermodels",
+      "study_B": "20060",
+      "title_B": "Dong et al. 2020",
+      "cancer_type_B": "prostate",
+      "shared_diseases": [
+        "Prostate cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "1351",
+      "title_A": "Miyamoto et al. 2015",
+      "cancer_type_A": "othermodels",
+      "study_B": "20881",
+      "title_B": "Song et al. 2022",
+      "cancer_type_B": "prostate",
+      "shared_diseases": [
+        "Prostate cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20051",
+      "title_A": "Caron et al. 2020",
+      "cancer_type_A": "hematologic",
+      "study_B": "20062",
+      "title_B": "Ebinger et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "ALL"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20054",
+      "title_A": "Chung et al. 2017",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20059",
+      "title_A": "Dong et al. 2020",
+      "cancer_type_A": "neuroendocrine",
+      "study_B": "20075",
+      "title_B": "Jansky et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20059",
+      "title_A": "Dong et al. 2020",
+      "cancer_type_A": "neuroendocrine",
+      "study_B": "20094",
+      "title_B": "Mercatelli et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20061",
+      "title_A": "Dost et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20084",
+      "title_B": "Laughney et al. 2020",
+      "cancer_type_B": "lung",
+      "shared_diseases": [
+        "Lung cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20061",
+      "title_A": "Dost et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20093",
+      "title_B": "Maynard et al. 2020",
+      "cancer_type_B": "lung",
+      "shared_diseases": [
+        "Lung cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20061",
+      "title_A": "Dost et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20106",
+      "title_B": "Qian et al. 2020",
+      "cancer_type_B": "lung",
+      "shared_diseases": [
+        "Lung cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20061",
+      "title_A": "Dost et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20115",
+      "title_B": "Xing et al. 2021",
+      "cancer_type_B": "lung",
+      "shared_diseases": [
+        "Lung cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20089",
+      "title_B": "Lin et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20096",
+      "title_B": "Moncada et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20103",
+      "title_B": "Peng et al. 2019",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20108",
+      "title_B": "Steele et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20120",
+      "title_B": "Yue et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20812",
+      "title_B": "Hwang et al. 2022",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20065",
+      "title_A": "Franses et al. 2020",
+      "cancer_type_A": "othermodels",
+      "study_B": "20848",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20068",
+      "title_A": "Gao et al. 2021",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20074",
+      "title_A": "Jansky et al. 2021",
+      "cancer_type_A": "neuroendocrine",
+      "study_B": "20075",
+      "title_B": "Jansky et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20074",
+      "title_A": "Jansky et al. 2021",
+      "cancer_type_A": "neuroendocrine",
+      "study_B": "20094",
+      "title_B": "Mercatelli et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20075",
+      "title_A": "Jansky et al. 2021",
+      "cancer_type_A": "othermodels",
+      "study_B": "20081",
+      "title_B": "Kildisiute et al. 2021",
+      "cancer_type_B": "neuroendocrine",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20079",
+      "title_A": "Jordan et al. 2016",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20080",
+      "title_A": "Karaayvas et al. 2018",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20081",
+      "title_A": "Kildisiute et al. 2021",
+      "cancer_type_A": "neuroendocrine",
+      "study_B": "20094",
+      "title_B": "Mercatelli et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Neuroblastoma"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20089",
+      "title_B": "Lin et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20096",
+      "title_B": "Moncada et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20103",
+      "title_B": "Peng et al. 2019",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20108",
+      "title_B": "Steele et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20120",
+      "title_B": "Yue et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20812",
+      "title_B": "Hwang et al. 2022",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20088",
+      "title_A": "Ligorio et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20848",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20089",
+      "title_A": "Lin et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20118",
+      "title_B": "Yu et al. 2012",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20089",
+      "title_A": "Lin et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20096",
+      "title_A": "Moncada et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20118",
+      "title_B": "Yu et al. 2012",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20096",
+      "title_A": "Moncada et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20102",
+      "title_A": "Pal et al. 2021",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20103",
+      "title_A": "Peng et al. 2019",
+      "cancer_type_A": "pancreas",
+      "study_B": "20118",
+      "title_B": "Yu et al. 2012",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20103",
+      "title_A": "Peng et al. 2019",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20105",
+      "title_A": "Qian et al. 2020",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20108",
+      "title_A": "Steele et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20118",
+      "title_B": "Yu et al. 2012",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20108",
+      "title_A": "Steele et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20118",
+      "title_A": "Yu et al. 2012",
+      "cancer_type_A": "othermodels",
+      "study_B": "20120",
+      "title_B": "Yue et al. 2020",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20118",
+      "title_A": "Yu et al. 2012",
+      "cancer_type_A": "othermodels",
+      "study_B": "20812",
+      "title_B": "Hwang et al. 2022",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20118",
+      "title_A": "Yu et al. 2012",
+      "cancer_type_A": "othermodels",
+      "study_B": "20848",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20120",
+      "title_A": "Yue et al. 2020",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20755",
+      "title_A": "Azizi et al. 2018",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20758",
+      "title_A": "Bassez et al. 2021",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20794",
+      "title_A": "Griffiths et al. 2021",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20800",
+      "title_A": "Gulati et al. 2020",
+      "cancer_type_A": "breast",
+      "study_B": "20815",
+      "title_B": "Jordan et al. 2016",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20809",
+      "title_A": "Hollern et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20818",
+      "title_B": "Kim et al. 2018",
+      "cancer_type_B": "breast",
+      "shared_diseases": [
+        "TNBC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20809",
+      "title_A": "Hollern et al. 2019",
+      "cancer_type_A": "othermodels",
+      "study_B": "20869",
+      "title_B": "Savas et al. 2018",
+      "cancer_type_B": "breast",
+      "shared_diseases": [
+        "TNBC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20812",
+      "title_A": "Hwang et al. 2022",
+      "cancer_type_A": "pancreas",
+      "study_B": "20845",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "othermodels",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20815",
+      "title_A": "Jordan et al. 2016",
+      "cancer_type_A": "othermodels",
+      "study_B": "20893",
+      "title_B": "Wu et al. 2021",
+      "cancer_type_B": "breast",
+      "shared_diseases": [
+        "Breast cancer"
+      ],
+      "weight": 1
+    },
+    {
+      "study_A": "20845",
+      "title_A": "Raghavan et al. 2021",
+      "cancer_type_A": "othermodels",
+      "study_B": "20848",
+      "title_B": "Raghavan et al. 2021",
+      "cancer_type_B": "pancreas",
+      "shared_diseases": [
+        "PDAC"
+      ],
+      "weight": 1
+    }
+  ]
 }
