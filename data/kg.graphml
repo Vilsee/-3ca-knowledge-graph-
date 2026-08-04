@@ -1,0 +1,3046 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d8" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d7" for="edge" attr.name="type" attr.type="string"/>
+<key id="d6" for="node" attr.name="data_completeness" attr.type="double"/>
+<key id="d5" for="node" attr.name="n_cells" attr.type="double"/>
+<key id="d4" for="node" attr.name="n_samples" attr.type="double"/>
+<key id="d3" for="node" attr.name="year" attr.type="long"/>
+<key id="d2" for="node" attr.name="author" attr.type="string"/>
+<key id="d1" for="node" attr.name="title" attr.type="string"/>
+<key id="d0" for="node" attr.name="type" attr.type="string"/>
+<graph edgedefault="directed"><node id="study_189">
+  <data key="d0">Study</data>
+  <data key="d1">Tirosh et al. 2016</data>
+  <data key="d2">Tirosh</data>
+  <data key="d3">2016</data>
+  <data key="d4">19.0</data>
+  <data key="d5">4645.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_skin">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Melanoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="tech_SmartSeq2">
+  <data key="d0">Technology</data>
+</node>
+<node id="study_331">
+  <data key="d0">Study</data>
+  <data key="d1">Filbin et al. 2018</data>
+  <data key="d2">Filbin</data>
+  <data key="d3">2018</data>
+  <data key="d4">7.0</data>
+  <data key="d5">2587.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="cancertype_brain">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Pediatric H3-K27M mutant glioma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_594">
+  <data key="d0">Study</data>
+  <data key="d1">Young et al. 2018</data>
+  <data key="d2">Young</data>
+  <data key="d3">2018</data>
+  <data key="d4">66.0</data>
+  <data key="d5">125139.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_kidney">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Wilms tumor">
+  <data key="d0">Disease</data>
+</node>
+<node id="disease_ccRCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="disease_papillary RCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="tech_10x">
+  <data key="d0">Technology</data>
+</node>
+<node id="study_1351">
+  <data key="d0">Study</data>
+  <data key="d1">Miyamoto et al. 2015</data>
+  <data key="d2">Miyamoto</data>
+  <data key="d3">2015</data>
+  <data key="d4">26.0</data>
+  <data key="d5">169.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="cancertype_othermodels">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Prostate cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="tech_Other">
+  <data key="d0">Technology</data>
+</node>
+<node id="study_20049">
+  <data key="d0">Study</data>
+  <data key="d1">Aynaud et al. 2020</data>
+  <data key="d2">Aynaud</data>
+  <data key="d3">2020</data>
+  <data key="d4">14.0</data>
+  <data key="d5">16337.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_Ewing sarcoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20050">
+  <data key="d0">Study</data>
+  <data key="d1">Bi et al. 2021</data>
+  <data key="d2">Bi</data>
+  <data key="d3">2021</data>
+  <data key="d4">8.0</data>
+  <data key="d5">34326.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_RCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20051">
+  <data key="d0">Study</data>
+  <data key="d1">Caron et al. 2020</data>
+  <data key="d2">Caron</data>
+  <data key="d3">2020</data>
+  <data key="d4">10.0</data>
+  <data key="d5">37320.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_hematologic">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_ALL">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20052">
+  <data key="d0">Study</data>
+  <data key="d1">Chen et al. 2020</data>
+  <data key="d2">Chen</data>
+  <data key="d3">2020</data>
+  <data key="d4">14.0</data>
+  <data key="d5">71896.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_head-and-neck">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Nasopharyngeal carcinoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20053">
+  <data key="d0">Study</data>
+  <data key="d1">Chen et al. 2021</data>
+  <data key="d2">Chen</data>
+  <data key="d3">2021</data>
+  <data key="d4">13.0</data>
+  <data key="d5">36424.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_prostate">
+  <data key="d0">CancerType</data>
+</node>
+<node id="study_20054">
+  <data key="d0">Study</data>
+  <data key="d1">Chung et al. 2017</data>
+  <data key="d2">Chung</data>
+  <data key="d3">2017</data>
+  <data key="d4">13.0</data>
+  <data key="d5">515.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="cancertype_breast">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Breast cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20055">
+  <data key="d0">Study</data>
+  <data key="d1">Cohen et al. 2021</data>
+  <data key="d2">Cohen</data>
+  <data key="d3">2021</data>
+  <data key="d4">74.0</data>
+  <data key="d5">39157.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Multiple myeloma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20056">
+  <data key="d0">Study</data>
+  <data key="d1">Couturier et al. 2020</data>
+  <data key="d2">Couturier</data>
+  <data key="d3">2020</data>
+  <data key="d4">29.0</data>
+  <data key="d5">100335.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_GBM">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20058">
+  <data key="d0">Study</data>
+  <data key="d1">Darmanis et al. 2017</data>
+  <data key="d2">Darmanis</data>
+  <data key="d3">2017</data>
+  <data key="d4">4.0</data>
+  <data key="d5">3589.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20059">
+  <data key="d0">Study</data>
+  <data key="d1">Dong et al. 2020</data>
+  <data key="d2">Dong</data>
+  <data key="d3">2020</data>
+  <data key="d4">13.0</data>
+  <data key="d5">55190.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_neuroendocrine">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Neuroblastoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20060">
+  <data key="d0">Study</data>
+  <data key="d1">Dong et al. 2020</data>
+  <data key="d2">Dong</data>
+  <data key="d3">2020</data>
+  <data key="d4">6.0</data>
+  <data key="d5">21292.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20061">
+  <data key="d0">Study</data>
+  <data key="d1">Dost et al. 2020</data>
+  <data key="d2">Dost</data>
+  <data key="d3">2020</data>
+  <data key="d4">10.0</data>
+  <data key="d5">32661.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Lung cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20062">
+  <data key="d0">Study</data>
+  <data key="d1">Ebinger et al. 2016</data>
+  <data key="d2">Ebinger</data>
+  <data key="d3">2016</data>
+  <data key="d4">5.0</data>
+  <data key="d5">185.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20064">
+  <data key="d0">Study</data>
+  <data key="d1">Franses et al. 2017</data>
+  <data key="d2">Franses</data>
+  <data key="d3">2017</data>
+  <data key="d4">3.0</data>
+  <data key="d5">34.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="disease_IPMN/PDAC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20065">
+  <data key="d0">Study</data>
+  <data key="d1">Franses et al. 2020</data>
+  <data key="d2">Franses</data>
+  <data key="d3">2020</data>
+  <data key="d4">4.0</data>
+  <data key="d5">81.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_PDAC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20066">
+  <data key="d0">Study</data>
+  <data key="d1">Gaiti et al. 2019</data>
+  <data key="d2">Gaiti</data>
+  <data key="d3">2019</data>
+  <data key="d4">8.0</data>
+  <data key="d5">720.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_CLL">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20067">
+  <data key="d0">Study</data>
+  <data key="d1">Galen et al. 2019</data>
+  <data key="d2">Galen</data>
+  <data key="d3">2019</data>
+  <data key="d4">37.0</data>
+  <data key="d5">33392.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_AML">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20068">
+  <data key="d0">Study</data>
+  <data key="d1">Gao et al. 2021</data>
+  <data key="d2">Gao</data>
+  <data key="d3">2021</data>
+  <data key="d4">11.0</data>
+  <data key="d5">29992.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20069">
+  <data key="d0">Study</data>
+  <data key="d1">Giustacchini et al. 2017</data>
+  <data key="d2">Giustacchini</data>
+  <data key="d3">2017</data>
+  <data key="d4">42.0</data>
+  <data key="d5">2287.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_CML">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20070">
+  <data key="d0">Study</data>
+  <data key="d1">Gojo et al. 2020</data>
+  <data key="d2">Gojo</data>
+  <data key="d3">2020</data>
+  <data key="d4">25.0</data>
+  <data key="d5">6739.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Pediatric ependymoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20071">
+  <data key="d0">Study</data>
+  <data key="d1">Hovestadt et al. 2019</data>
+  <data key="d2">Hovestadt</data>
+  <data key="d3">2019</data>
+  <data key="d4">36.0</data>
+  <data key="d5">8691.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_Medulloblastoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20072">
+  <data key="d0">Study</data>
+  <data key="d1">Ireland et al. 2020</data>
+  <data key="d2">Ireland</data>
+  <data key="d3">2020</data>
+  <data key="d4">12.0</data>
+  <data key="d5">31258.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="cancertype_lung">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_SCLC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20073">
+  <data key="d0">Study</data>
+  <data key="d1">Izar et al. 2020</data>
+  <data key="d2">Izar</data>
+  <data key="d3">2020</data>
+  <data key="d4">14.0</data>
+  <data key="d5">10788.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_ovarian">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_HGSOC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20074">
+  <data key="d0">Study</data>
+  <data key="d1">Jansky et al. 2021</data>
+  <data key="d2">Jansky</data>
+  <data key="d3">2021</data>
+  <data key="d4">14.0</data>
+  <data key="d5">64769.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20075">
+  <data key="d0">Study</data>
+  <data key="d1">Jansky et al. 2021</data>
+  <data key="d2">Jansky</data>
+  <data key="d3">2021</data>
+  <data key="d4">4.0</data>
+  <data key="d5">4028.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20076">
+  <data key="d0">Study</data>
+  <data key="d1">Jerby-Arnon et al. 2018</data>
+  <data key="d2">Jerby-Arnon</data>
+  <data key="d3">2018</data>
+  <data key="d4">32.0</data>
+  <data key="d5">7186.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20077">
+  <data key="d0">Study</data>
+  <data key="d1">Jerby-Arnon et al. 2021</data>
+  <data key="d2">Jerby-Arnon</data>
+  <data key="d3">2021</data>
+  <data key="d4">15.0</data>
+  <data key="d5">16125.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_sarcoma">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_Synovial sarcoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20078">
+  <data key="d0">Study</data>
+  <data key="d1">Ji et al. 2020</data>
+  <data key="d2">Ji</data>
+  <data key="d3">2020</data>
+  <data key="d4">10.0</data>
+  <data key="d5">48164.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Skin SCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20079">
+  <data key="d0">Study</data>
+  <data key="d1">Jordan et al. 2016</data>
+  <data key="d2">Jordan</data>
+  <data key="d3">2016</data>
+  <data key="d4">2.0</data>
+  <data key="d5">74.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="study_20080">
+  <data key="d0">Study</data>
+  <data key="d1">Karaayvas et al. 2018</data>
+  <data key="d2">Karaayvas</data>
+  <data key="d3">2018</data>
+  <data key="d4">6.0</data>
+  <data key="d5">1534.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20081">
+  <data key="d0">Study</data>
+  <data key="d1">Kildisiute et al. 2021</data>
+  <data key="d2">Kildisiute</data>
+  <data key="d3">2021</data>
+  <data key="d4">21.0</data>
+  <data key="d5">19723.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20082">
+  <data key="d0">Study</data>
+  <data key="d1">Kim et al. 2020</data>
+  <data key="d2">Kim</data>
+  <data key="d3">2020</data>
+  <data key="d4">14.0</data>
+  <data key="d5">32493.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Lung adenocarcinoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20083">
+  <data key="d0">Study</data>
+  <data key="d1">Kinker et al. 2020</data>
+  <data key="d2">Kinker</data>
+  <data key="d3">2020</data>
+  <data key="d4">198.0</data>
+  <data key="d5">53513.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="disease_CCLE collection">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20084">
+  <data key="d0">Study</data>
+  <data key="d1">Laughney et al. 2020</data>
+  <data key="d2">Laughney</data>
+  <data key="d3">2020</data>
+  <data key="d4">17.0</data>
+  <data key="d5">40505.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20085">
+  <data key="d0">Study</data>
+  <data key="d1">Ledergor et al. 2018</data>
+  <data key="d2">Ledergor</data>
+  <data key="d3">2018</data>
+  <data key="d4">42.0</data>
+  <data key="d5">51840.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20086">
+  <data key="d0">Study</data>
+  <data key="d1">Lee et al. 2020</data>
+  <data key="d2">Lee</data>
+  <data key="d3">2020</data>
+  <data key="d4">15.0</data>
+  <data key="d5">21657.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_colorectal">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_CRC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20087">
+  <data key="d0">Study</data>
+  <data key="d1">Li et al. 2017</data>
+  <data key="d2">Li</data>
+  <data key="d3">2017</data>
+  <data key="d4">18.0</data>
+  <data key="d5">590.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20088">
+  <data key="d0">Study</data>
+  <data key="d1">Ligorio et al. 2019</data>
+  <data key="d2">Ligorio</data>
+  <data key="d3">2019</data>
+  <data key="d4">4.0</data>
+  <data key="d5">93.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20089">
+  <data key="d0">Study</data>
+  <data key="d1">Lin et al. 2020</data>
+  <data key="d2">Lin</data>
+  <data key="d3">2020</data>
+  <data key="d4">16.0</data>
+  <data key="d5">14926.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_pancreas">
+  <data key="d0">CancerType</data>
+</node>
+<node id="study_20090">
+  <data key="d0">Study</data>
+  <data key="d1">Liu et al. 2021</data>
+  <data key="d2">Liu</data>
+  <data key="d3">2021</data>
+  <data key="d4">24.0</data>
+  <data key="d5">74986.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20091">
+  <data key="d0">Study</data>
+  <data key="d1">Ma et al. 2019</data>
+  <data key="d2">Ma</data>
+  <data key="d3">2019</data>
+  <data key="d4">8.0</data>
+  <data key="d5">3018.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="cancertype_liverbiliary">
+  <data key="d0">CancerType</data>
+</node>
+<node id="disease_HCC/iCCA">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20092">
+  <data key="d0">Study</data>
+  <data key="d1">Massalha et al. 2020</data>
+  <data key="d2">Massalha</data>
+  <data key="d3">2020</data>
+  <data key="d4">5.0</data>
+  <data key="d5">1354.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_Liver metastases (CRC">
+  <data key="d0">Disease</data>
+</node>
+<node id="disease_Cholangiocarcinoma)">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20093">
+  <data key="d0">Study</data>
+  <data key="d1">Maynard et al. 2020</data>
+  <data key="d2">Maynard</data>
+  <data key="d3">2020</data>
+  <data key="d4">50.0</data>
+  <data key="d5">19777.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20094">
+  <data key="d0">Study</data>
+  <data key="d1">Mercatelli et al. 2021</data>
+  <data key="d2">Mercatelli</data>
+  <data key="d3">2021</data>
+  <data key="d4">2.0</data>
+  <data key="d5">2067.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20096">
+  <data key="d0">Study</data>
+  <data key="d1">Moncada et al. 2020</data>
+  <data key="d2">Moncada</data>
+  <data key="d3">2020</data>
+  <data key="d4">2.0</data>
+  <data key="d5">3659.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="tech_inDrop">
+  <data key="d0">Technology</data>
+</node>
+<node id="study_20097">
+  <data key="d0">Study</data>
+  <data key="d1">Nam et al. 2019</data>
+  <data key="d2">Nam</data>
+  <data key="d3">2019</data>
+  <data key="d4">10.0</data>
+  <data key="d5">31703.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Myeloproliferative neoplasms">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20098">
+  <data key="d0">Study</data>
+  <data key="d1">Nath et al. 2021</data>
+  <data key="d2">Nath</data>
+  <data key="d3">2021</data>
+  <data key="d4">18.0</data>
+  <data key="d5">41729.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20099">
+  <data key="d0">Study</data>
+  <data key="d1">Neftel et al. 2019</data>
+  <data key="d2">Neftel</data>
+  <data key="d3">2019</data>
+  <data key="d4">38.0</data>
+  <data key="d5">24131.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20100">
+  <data key="d0">Study</data>
+  <data key="d1">Obradovic et al. 2021</data>
+  <data key="d2">Obradovic</data>
+  <data key="d3">2021</data>
+  <data key="d4">8.0</data>
+  <data key="d5">19781.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20101">
+  <data key="d0">Study</data>
+  <data key="d1">Olalekan et al. 2021</data>
+  <data key="d2">Olalekan</data>
+  <data key="d3">2021</data>
+  <data key="d4">6.0</data>
+  <data key="d5">9885.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Ovarian">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20102">
+  <data key="d0">Study</data>
+  <data key="d1">Pal et al. 2021</data>
+  <data key="d2">Pal</data>
+  <data key="d3">2021</data>
+  <data key="d4">45.0</data>
+  <data key="d5">305224.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20103">
+  <data key="d0">Study</data>
+  <data key="d1">Peng et al. 2019</data>
+  <data key="d2">Peng</data>
+  <data key="d3">2019</data>
+  <data key="d4">16.0</data>
+  <data key="d5">27953.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20104">
+  <data key="d0">Study</data>
+  <data key="d1">Puram et al. 2017</data>
+  <data key="d2">Puram</data>
+  <data key="d3">2017</data>
+  <data key="d4">18.0</data>
+  <data key="d5">5902.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_HNSCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20105">
+  <data key="d0">Study</data>
+  <data key="d1">Qian et al. 2020</data>
+  <data key="d2">Qian</data>
+  <data key="d3">2020</data>
+  <data key="d4">7.0</data>
+  <data key="d5">16537.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20106">
+  <data key="d0">Study</data>
+  <data key="d1">Qian et al. 2020</data>
+  <data key="d2">Qian</data>
+  <data key="d3">2020</data>
+  <data key="d4">8.0</data>
+  <data key="d5">27262.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20107">
+  <data key="d0">Study</data>
+  <data key="d1">Qian et al. 2020</data>
+  <data key="d2">Qian</data>
+  <data key="d3">2020</data>
+  <data key="d4">4.0</data>
+  <data key="d5">16951.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20108">
+  <data key="d0">Study</data>
+  <data key="d1">Steele et al. 2020</data>
+  <data key="d2">Steele</data>
+  <data key="d3">2020</data>
+  <data key="d4">16.0</data>
+  <data key="d5">48570.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20109">
+  <data key="d0">Study</data>
+  <data key="d1">Sun et al. 2021</data>
+  <data key="d2">Sun</data>
+  <data key="d3">2021</data>
+  <data key="d4">18.0</data>
+  <data key="d5">16498.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_HCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20110">
+  <data key="d0">Study</data>
+  <data key="d1">Tirosh et al. 2016</data>
+  <data key="d2">Tirosh</data>
+  <data key="d3">2016</data>
+  <data key="d4">6.0</data>
+  <data key="d5">4347.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_IDH-mutant oligodendroglioma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20112">
+  <data key="d0">Study</data>
+  <data key="d1">Venteicher et al. 2017</data>
+  <data key="d2">Venteicher</data>
+  <data key="d3">2017</data>
+  <data key="d4">10.0</data>
+  <data key="d5">6341.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_IDH-mutant astrocytoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20113">
+  <data key="d0">Study</data>
+  <data key="d1">Wang et al. 2019</data>
+  <data key="d2">Wang</data>
+  <data key="d3">2019</data>
+  <data key="d4">10.0</data>
+  <data key="d5">16317.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20114">
+  <data key="d0">Study</data>
+  <data key="d1">Wu et al. 2020</data>
+  <data key="d2">Wu</data>
+  <data key="d3">2020</data>
+  <data key="d4">41.0</data>
+  <data key="d5">194571.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20115">
+  <data key="d0">Study</data>
+  <data key="d1">Xing et al. 2021</data>
+  <data key="d2">Xing</data>
+  <data key="d3">2021</data>
+  <data key="d4">31.0</data>
+  <data key="d5">118293.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20116">
+  <data key="d0">Study</data>
+  <data key="d1">Yao et al. 2020</data>
+  <data key="d2">Yao</data>
+  <data key="d3">2020</data>
+  <data key="d4">6.0</data>
+  <data key="d5">35847.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_ESCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20118">
+  <data key="d0">Study</data>
+  <data key="d1">Yu et al. 2012</data>
+  <data key="d2">Yu</data>
+  <data key="d3">2012</data>
+  <data key="d4">2.0</data>
+  <data key="d5">32.0</data>
+  <data key="d6">0.0</data>
+</node>
+<node id="study_20119">
+  <data key="d0">Study</data>
+  <data key="d1">Yuan et al. 2018</data>
+  <data key="d2">Yuan</data>
+  <data key="d3">2018</data>
+  <data key="d4">8.0</data>
+  <data key="d5">23793.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_HGG">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20120">
+  <data key="d0">Study</data>
+  <data key="d1">Yue et al. 2020</data>
+  <data key="d2">Yue</data>
+  <data key="d3">2020</data>
+  <data key="d4">15.0</data>
+  <data key="d5">33970.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20121">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2021</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2021</data>
+  <data key="d4">14.0</data>
+  <data key="d5">29474.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20122">
+  <data key="d0">Study</data>
+  <data key="d1">Zhou et al. 2020</data>
+  <data key="d2">Zhou</data>
+  <data key="d3">2020</data>
+  <data key="d4">11.0</data>
+  <data key="d5">64557.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Osteosarcoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20755">
+  <data key="d0">Study</data>
+  <data key="d1">Azizi et al. 2018</data>
+  <data key="d2">Azizi</data>
+  <data key="d3">2018</data>
+  <data key="d4">58.0</data>
+  <data key="d5">75029.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20758">
+  <data key="d0">Study</data>
+  <data key="d1">Bassez et al. 2021</data>
+  <data key="d2">Bassez</data>
+  <data key="d3">2021</data>
+  <data key="d4">42.0</data>
+  <data key="d5">226635.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20761">
+  <data key="d0">Study</data>
+  <data key="d1">Biermann et al. 2022</data>
+  <data key="d2">Biermann</data>
+  <data key="d3">2022</data>
+  <data key="d4">32.0</data>
+  <data key="d5">136973.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Metastatic melanoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20764">
+  <data key="d0">Study</data>
+  <data key="d1">Bischoff et al. 2021</data>
+  <data key="d2">Bischoff</data>
+  <data key="d3">2021</data>
+  <data key="d4">20.0</data>
+  <data key="d5">120961.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20767">
+  <data key="d0">Study</data>
+  <data key="d1">Chan et al. 2021</data>
+  <data key="d2">Chan</data>
+  <data key="d3">2021</data>
+  <data key="d4">37.0</data>
+  <data key="d5">86662.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Lung Adenocarcinoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20770">
+  <data key="d0">Study</data>
+  <data key="d1">Chen et al. 2021</data>
+  <data key="d2">Chen</data>
+  <data key="d3">2021</data>
+  <data key="d4">121.0</data>
+  <data key="d5">122811.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Colon adenoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20773">
+  <data key="d0">Study</data>
+  <data key="d1">Choudhury et al. 2022</data>
+  <data key="d2">Choudhury</data>
+  <data key="d3">2022</data>
+  <data key="d4">10.0</data>
+  <data key="d5">58843.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Meningioma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20776">
+  <data key="d0">Study</data>
+  <data key="d1">Cillo et al. 2020</data>
+  <data key="d2">Cillo</data>
+  <data key="d3">2020</data>
+  <data key="d4">48.0</data>
+  <data key="d5">92569.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20779">
+  <data key="d0">Study</data>
+  <data key="d1">Durante et al. 2020</data>
+  <data key="d2">Durante</data>
+  <data key="d3">2020</data>
+  <data key="d4">11.0</data>
+  <data key="d5">103703.0</data>
+  <data key="d6">0.0</data>
+</node>
+<node id="disease_Uveal melanoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20785">
+  <data key="d0">Study</data>
+  <data key="d1">Gaydosik et al. 2019</data>
+  <data key="d2">Gaydosik</data>
+  <data key="d3">2019</data>
+  <data key="d4">9.0</data>
+  <data key="d5">30497.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Cutaneous T cell lymphoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20788">
+  <data key="d0">Study</data>
+  <data key="d1">Geistlinger et al. 2020</data>
+  <data key="d2">Geistlinger</data>
+  <data key="d3">2020</data>
+  <data key="d4">5.0</data>
+  <data key="d5">41031.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20791">
+  <data key="d0">Study</data>
+  <data key="d1">Gonzalez et al. 2022</data>
+  <data key="d2">Gonzalez</data>
+  <data key="d3">2022</data>
+  <data key="d4">15.0</data>
+  <data key="d5">99150.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Brain metastases">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20794">
+  <data key="d0">Study</data>
+  <data key="d1">Griffiths et al. 2021</data>
+  <data key="d2">Griffiths</data>
+  <data key="d3">2021</data>
+  <data key="d4">95.0</data>
+  <data key="d5">111372.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20797">
+  <data key="d0">Study</data>
+  <data key="d1">Gubin et al. 2018</data>
+  <data key="d2">Gubin</data>
+  <data key="d3">2018</data>
+  <data key="d4">4.0</data>
+  <data key="d5">14618.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="disease_Sarcoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20800">
+  <data key="d0">Study</data>
+  <data key="d1">Gulati et al. 2020</data>
+  <data key="d2">Gulati</data>
+  <data key="d3">2020</data>
+  <data key="d4">15.0</data>
+  <data key="d5">1902.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20803">
+  <data key="d0">Study</data>
+  <data key="d1">Guo et al. 2018</data>
+  <data key="d2">Guo</data>
+  <data key="d3">2018</data>
+  <data key="d4">40.0</data>
+  <data key="d5">12346.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_NSCLC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20806">
+  <data key="d0">Study</data>
+  <data key="d1">He et al. 2021</data>
+  <data key="d2">He</data>
+  <data key="d3">2021</data>
+  <data key="d4">15.0</data>
+  <data key="d5">2170.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Metastatic prostate cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20809">
+  <data key="d0">Study</data>
+  <data key="d1">Hollern et al. 2019</data>
+  <data key="d2">Hollern</data>
+  <data key="d3">2019</data>
+  <data key="d4">4.0</data>
+  <data key="d5">27532.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_TNBC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20812">
+  <data key="d0">Study</data>
+  <data key="d1">Hwang et al. 2022</data>
+  <data key="d2">Hwang</data>
+  <data key="d3">2022</data>
+  <data key="d4">43.0</data>
+  <data key="d5">224988.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20815">
+  <data key="d0">Study</data>
+  <data key="d1">Jordan et al. 2016</data>
+  <data key="d2">Jordan</data>
+  <data key="d3">2016</data>
+  <data key="d4">16.0</data>
+  <data key="d5">74.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20818">
+  <data key="d0">Study</data>
+  <data key="d1">Kim et al. 2018</data>
+  <data key="d2">Kim</data>
+  <data key="d3">2018</data>
+  <data key="d4">16.0</data>
+  <data key="d5">2472.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20821">
+  <data key="d0">Study</data>
+  <data key="d1">Krishna et al. 2021</data>
+  <data key="d2">Krishna</data>
+  <data key="d3">2021</data>
+  <data key="d4">29.0</data>
+  <data key="d5">167283.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20824">
+  <data key="d0">Study</data>
+  <data key="d1">Kumar et al. 2022</data>
+  <data key="d2">Kumar</data>
+  <data key="d3">2022</data>
+  <data key="d4">40.0</data>
+  <data key="d5">158500.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Gastric cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20830">
+  <data key="d0">Study</data>
+  <data key="d1">Li et al. 2019</data>
+  <data key="d2">Li</data>
+  <data key="d3">2019</data>
+  <data key="d4">27.0</data>
+  <data key="d5">78336.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20833">
+  <data key="d0">Study</data>
+  <data key="d1">Mahuron et al. 2020</data>
+  <data key="d2">Mahuron</data>
+  <data key="d3">2020</data>
+  <data key="d4">6.0</data>
+  <data key="d5">27935.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20836">
+  <data key="d0">Study</data>
+  <data key="d1">Olbrecht et al. 2021</data>
+  <data key="d2">Olbrecht</data>
+  <data key="d3">2021</data>
+  <data key="d4">11.0</data>
+  <data key="d5">15528.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_HGSTOC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20839">
+  <data key="d0">Study</data>
+  <data key="d1">Paulson et al. 2020</data>
+  <data key="d2">Paulson</data>
+  <data key="d3">2020</data>
+  <data key="d4">8.0</data>
+  <data key="d5">31376.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Merkel cell carcinoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20842">
+  <data key="d0">Study</data>
+  <data key="d1">Pelka et al. 2021</data>
+  <data key="d2">Pelka</data>
+  <data key="d3">2021</data>
+  <data key="d4">100.0</data>
+  <data key="d5">370115.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Colorectal cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20845">
+  <data key="d0">Study</data>
+  <data key="d1">Raghavan et al. 2021</data>
+  <data key="d2">Raghavan</data>
+  <data key="d3">2021</data>
+  <data key="d4">53.0</data>
+  <data key="d5">41663.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20848">
+  <data key="d0">Study</data>
+  <data key="d1">Raghavan et al. 2021</data>
+  <data key="d2">Raghavan</data>
+  <data key="d3">2021</data>
+  <data key="d4">24.0</data>
+  <data key="d5">24412.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20851">
+  <data key="d0">Study</data>
+  <data key="d1">Rao et al. 2020</data>
+  <data key="d2">Rao</data>
+  <data key="d3">2020</data>
+  <data key="d4">2.0</data>
+  <data key="d5">4739.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Small intestinal neuroendocrine tumor">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20854">
+  <data key="d0">Study</data>
+  <data key="d1">Regner et al. 2021</data>
+  <data key="d2">Regner</data>
+  <data key="d3">2021</data>
+  <data key="d4">11.0</data>
+  <data key="d5">65144.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Ovarian and Endometrial tumors">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20857">
+  <data key="d0">Study</data>
+  <data key="d1">Rendeiro et al. 2020</data>
+  <data key="d2">Rendeiro</data>
+  <data key="d3">2020</data>
+  <data key="d4">12.0</data>
+  <data key="d5">48016.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20860">
+  <data key="d0">Study</data>
+  <data key="d1">Riether et al. 2020</data>
+  <data key="d2">Riether</data>
+  <data key="d3">2020</data>
+  <data key="d4">4.0</data>
+  <data key="d5">8103.0</data>
+  <data key="d6">0.25</data>
+</node>
+<node id="study_20863">
+  <data key="d0">Study</data>
+  <data key="d1">Roider et al. 2020</data>
+  <data key="d2">Roider</data>
+  <data key="d3">2020</data>
+  <data key="d4">12.0</data>
+  <data key="d5">35278.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_B cell lymphoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20866">
+  <data key="d0">Study</data>
+  <data key="d1">Sade-Feldman et al. 2018</data>
+  <data key="d2">Sade-Feldman</data>
+  <data key="d3">2018</data>
+  <data key="d4">48.0</data>
+  <data key="d5">16291.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Primary melanoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20869">
+  <data key="d0">Study</data>
+  <data key="d1">Savas et al. 2018</data>
+  <data key="d2">Savas</data>
+  <data key="d3">2018</data>
+  <data key="d4">2.0</data>
+  <data key="d5">6311.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20872">
+  <data key="d0">Study</data>
+  <data key="d1">Sharma et al. 2020</data>
+  <data key="d2">Sharma</data>
+  <data key="d3">2020</data>
+  <data key="d4">58.0</data>
+  <data key="d5">73589.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20875">
+  <data key="d0">Study</data>
+  <data key="d1">Shih et al. 2018</data>
+  <data key="d2">Shih</data>
+  <data key="d3">2018</data>
+  <data key="d4">18.0</data>
+  <data key="d5">3066.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Ovarian cancer">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20878">
+  <data key="d0">Study</data>
+  <data key="d1">Song et al. 2019</data>
+  <data key="d2">Song</data>
+  <data key="d3">2019</data>
+  <data key="d4">6.0</data>
+  <data key="d5">8772.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20881">
+  <data key="d0">Study</data>
+  <data key="d1">Song et al. 2022</data>
+  <data key="d2">Song</data>
+  <data key="d3">2022</data>
+  <data key="d4">15.0</data>
+  <data key="d5">21743.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20884">
+  <data key="d0">Study</data>
+  <data key="d1">Steen et al. 2021</data>
+  <data key="d2">Steen</data>
+  <data key="d3">2021</data>
+  <data key="d4">10.0</data>
+  <data key="d5">18197.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_DLBCL">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20887">
+  <data key="d0">Study</data>
+  <data key="d1">Sun et al. 2021</data>
+  <data key="d2">Sun</data>
+  <data key="d3">2021</data>
+  <data key="d4">10.0</data>
+  <data key="d5">113.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="disease_HCC CTCs">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20890">
+  <data key="d0">Study</data>
+  <data key="d1">Tang-Huau et al. 2018</data>
+  <data key="d2">Tang-Huau</data>
+  <data key="d3">2018</data>
+  <data key="d4">4.0</data>
+  <data key="d5">8404.0</data>
+  <data key="d6">0.5</data>
+</node>
+<node id="study_20893">
+  <data key="d0">Study</data>
+  <data key="d1">Wu et al. 2021</data>
+  <data key="d2">Wu</data>
+  <data key="d3">2021</data>
+  <data key="d4">26.0</data>
+  <data key="d5">100064.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20896">
+  <data key="d0">Study</data>
+  <data key="d1">Yost et al. 2019</data>
+  <data key="d2">Yost</data>
+  <data key="d3">2019</data>
+  <data key="d4">30.0</data>
+  <data key="d5">79046.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_BCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="disease_SCC">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20899">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2018</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2018</data>
+  <data key="d4">33.0</data>
+  <data key="d5">11138.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20902">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2019</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2019</data>
+  <data key="d4">13.0</data>
+  <data key="d5">56440.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20905">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2019</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2019</data>
+  <data key="d4">4.0</data>
+  <data key="d5">7002.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="disease_Follicular lymphoma">
+  <data key="d0">Disease</data>
+</node>
+<node id="study_20908">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2019</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2019</data>
+  <data key="d4">42.0</data>
+  <data key="d5">73261.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20911">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2019</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2019</data>
+  <data key="d4">2.0</data>
+  <data key="d5">4848.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_20914">
+  <data key="d0">Study</data>
+  <data key="d1">Zhang et al. 2022</data>
+  <data key="d2">Zhang</data>
+  <data key="d3">2022</data>
+  <data key="d4">22.0</data>
+  <data key="d5">51786.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20917">
+  <data key="d0">Study</data>
+  <data key="d1">Zheng et al. 2017</data>
+  <data key="d2">Zheng</data>
+  <data key="d3">2017</data>
+  <data key="d4">17.0</data>
+  <data key="d5">5063.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_20920">
+  <data key="d0">Study</data>
+  <data key="d1">Zilionis et al. 2019</data>
+  <data key="d2">Zilionis</data>
+  <data key="d3">2019</data>
+  <data key="d4">7.0</data>
+  <data key="d5">31179.0</data>
+  <data key="d6">1.0</data>
+</node>
+<node id="study_133103">
+  <data key="d0">Study</data>
+  <data key="d1">Ferrari de Andrade et al. 2019</data>
+  <data key="d2">Andrade</data>
+  <data key="d3">2019</data>
+  <data key="d4">12.0</data>
+  <data key="d5">40823.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="study_6256973">
+  <data key="d0">Study</data>
+  <data key="d1">Cui et al. 2021</data>
+  <data key="d2">Cui</data>
+  <data key="d3">2021</data>
+  <data key="d4">23.0</data>
+  <data key="d5">2679.0</data>
+  <data key="d6">0.75</data>
+</node>
+<node id="disease_Pituitary neuroendocrine tumors">
+  <data key="d0">Disease</data>
+</node>
+<edge source="study_189" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_189" target="disease_Melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_189" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_331" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_331" target="disease_Pediatric H3-K27M mutant glioma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_331" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_594" target="cancertype_kidney">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_594" target="disease_Wilms tumor">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_594" target="disease_ccRCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_594" target="disease_papillary RCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_594" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_1351" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_1351" target="disease_Prostate cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_1351" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_1351" target="study_20053">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_1351" target="study_20060">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_1351" target="study_20881">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20049" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20049" target="disease_Ewing sarcoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20049" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20050" target="cancertype_kidney">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20050" target="disease_RCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20050" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20051" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20051" target="disease_ALL">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20051" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20051" target="study_20062">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20052" target="cancertype_head-and-neck">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20052" target="disease_Nasopharyngeal carcinoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20052" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20053" target="cancertype_prostate">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20053" target="disease_Prostate cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20053" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20053" target="study_1351">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20054" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20054" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20054" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20054" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20055" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20055" target="disease_Multiple myeloma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20055" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20056" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20056" target="disease_GBM">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20056" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20058" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20058" target="disease_GBM">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20058" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20059" target="cancertype_neuroendocrine">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20059" target="disease_Neuroblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20059" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20059" target="study_20075">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20059" target="study_20094">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20060" target="cancertype_prostate">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20060" target="disease_Prostate cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20060" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20060" target="study_1351">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20061" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20061" target="disease_Lung cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20061" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20061" target="study_20084">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20061" target="study_20093">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20061" target="study_20106">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20061" target="study_20115">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20062" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20062" target="disease_ALL">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20062" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20062" target="study_20051">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20064" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20064" target="disease_IPMN/PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20064" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20065" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20065" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20065" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20065" target="study_20089">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20096">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20103">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20108">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20120">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20812">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20065" target="study_20848">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20066" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20066" target="disease_CLL">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20066" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20067" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20067" target="disease_AML">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20067" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20068" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20068" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20068" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20068" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20069" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20069" target="disease_CML">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20069" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20070" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20070" target="disease_Pediatric ependymoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20070" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20071" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20071" target="disease_Medulloblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20071" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20072" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20072" target="disease_SCLC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20072" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20073" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20073" target="disease_HGSOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20073" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20074" target="cancertype_neuroendocrine">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20074" target="disease_Neuroblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20074" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20074" target="study_20075">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20074" target="study_20094">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20075" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20075" target="disease_Neuroblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20075" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20075" target="study_20059">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20075" target="study_20074">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20075" target="study_20081">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20076" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20076" target="disease_Melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20076" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20077" target="cancertype_sarcoma">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20077" target="disease_Synovial sarcoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20077" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20078" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20078" target="disease_Skin SCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20078" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20079" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20079" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20079" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20079" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20080" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20080" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20080" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20080" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20081" target="cancertype_neuroendocrine">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20081" target="disease_Neuroblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20081" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20081" target="study_20075">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20081" target="study_20094">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20082" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20082" target="disease_Lung adenocarcinoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20082" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20083" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20083" target="disease_CCLE collection">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20083" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20084" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20084" target="disease_Lung cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20084" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20084" target="study_20061">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20085" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20085" target="disease_Multiple myeloma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20085" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20086" target="cancertype_colorectal">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20086" target="disease_CRC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20086" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20087" target="cancertype_colorectal">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20087" target="disease_CRC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20087" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20088" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20088" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20088" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20088" target="study_20089">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20096">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20103">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20108">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20120">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20812">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20088" target="study_20848">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20089" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20089" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20089" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20089" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20089" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20089" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20089" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20090" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20090" target="disease_Multiple myeloma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20090" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20091" target="cancertype_liverbiliary">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20091" target="disease_HCC/iCCA">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20091" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20092" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20092" target="disease_Liver metastases (CRC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20092" target="disease_Cholangiocarcinoma)">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20092" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20093" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20093" target="disease_Lung cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20093" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20093" target="study_20061">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20094" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20094" target="disease_Neuroblastoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20094" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20094" target="study_20059">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20094" target="study_20074">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20094" target="study_20081">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20096" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20096" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20096" target="tech_inDrop">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20096" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20096" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20096" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20096" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20097" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20097" target="disease_Myeloproliferative neoplasms">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20097" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20098" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20098" target="disease_HGSOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20098" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20099" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20099" target="disease_GBM">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20099" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20100" target="cancertype_kidney">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20100" target="disease_RCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20100" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20101" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20101" target="disease_Ovarian">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20101" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20102" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20102" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20102" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20102" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20103" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20103" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20103" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20103" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20103" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20103" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20103" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20104" target="cancertype_head-and-neck">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20104" target="disease_HNSCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20104" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20105" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20105" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20105" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20105" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20106" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20106" target="disease_Lung cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20106" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20106" target="study_20061">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20107" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20107" target="disease_Ovarian">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20107" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20108" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20108" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20108" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20108" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20108" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20108" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20108" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20109" target="cancertype_liverbiliary">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20109" target="disease_HCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20109" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20110" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20110" target="disease_IDH-mutant oligodendroglioma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20110" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20112" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20112" target="disease_IDH-mutant astrocytoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20112" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20113" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20113" target="disease_GBM">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20113" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20114" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20114" target="disease_AML">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20114" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20115" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20115" target="disease_Lung cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20115" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20115" target="study_20061">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20116" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20116" target="disease_ESCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20116" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20118" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20118" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20118" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20118" target="study_20089">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20096">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20103">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20108">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20120">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20812">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20118" target="study_20848">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20119" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20119" target="disease_HGG">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20119" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20120" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20120" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20120" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20120" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20120" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20120" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20120" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20121" target="cancertype_kidney">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20121" target="disease_RCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20121" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20122" target="cancertype_sarcoma">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20122" target="disease_Osteosarcoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20122" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20755" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20755" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20755" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20755" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20758" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20758" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20758" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20758" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20761" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20761" target="disease_Metastatic melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20761" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20764" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20764" target="disease_Lung adenocarcinoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20764" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20767" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20767" target="disease_SCLC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20767" target="disease_Lung Adenocarcinoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20767" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20770" target="cancertype_colorectal">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20770" target="disease_Colon adenoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20770" target="tech_inDrop">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20773" target="cancertype_brain">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20773" target="disease_Meningioma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20773" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20776" target="cancertype_head-and-neck">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20776" target="disease_HNSCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20776" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20779" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20779" target="disease_Uveal melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20779" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20785" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20785" target="disease_Cutaneous T cell lymphoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20785" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20788" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20788" target="disease_HGSOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20788" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20791" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20791" target="disease_Brain metastases">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20791" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20794" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20794" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20794" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20794" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20797" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20797" target="disease_Sarcoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20797" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20800" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20800" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20800" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20800" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20803" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20803" target="disease_NSCLC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20803" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20806" target="cancertype_prostate">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20806" target="disease_Metastatic prostate cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20806" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20809" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20809" target="disease_TNBC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20809" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20809" target="study_20818">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20809" target="study_20869">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20812" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20812" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20812" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20812" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20812" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20812" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20812" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20815" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20815" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20815" target="study_20054">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20068">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20079">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20080">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20102">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20105">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20755">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20758">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20794">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20800">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20815" target="study_20893">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20818" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20818" target="disease_TNBC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20818" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20818" target="study_20809">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20821" target="cancertype_kidney">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20821" target="disease_RCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20821" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20824" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20824" target="disease_Gastric cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20824" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20830" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20830" target="disease_Melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20830" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20833" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20833" target="disease_Metastatic melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20833" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20836" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20836" target="disease_HGSTOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20836" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20839" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20839" target="disease_Merkel cell carcinoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20839" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20842" target="cancertype_colorectal">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20842" target="disease_Colorectal cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20842" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20845" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20845" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20845" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20845" target="study_20089">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20096">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20103">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20108">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20120">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20812">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20845" target="study_20848">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20848" target="cancertype_pancreas">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20848" target="disease_PDAC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20848" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20848" target="study_20065">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20848" target="study_20088">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20848" target="study_20118">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20848" target="study_20845">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20851" target="cancertype_neuroendocrine">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20851" target="disease_Small intestinal neuroendocrine tumor">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20851" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20854" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20854" target="disease_Ovarian and Endometrial tumors">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20854" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20857" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20857" target="disease_CLL">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20857" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20860" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20860" target="disease_AML">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20860" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20863" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20863" target="disease_B cell lymphoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20863" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20866" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20866" target="disease_Primary melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20866" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20869" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20869" target="disease_TNBC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20869" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20869" target="study_20809">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20872" target="cancertype_liverbiliary">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20872" target="disease_HCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20872" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20875" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20875" target="disease_Ovarian cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20875" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20878" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20878" target="disease_NSCLC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20878" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20881" target="cancertype_prostate">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20881" target="disease_Prostate cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20881" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20881" target="study_1351">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20884" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20884" target="disease_DLBCL">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20884" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20887" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20887" target="disease_HCC CTCs">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20887" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20890" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20890" target="disease_Ovarian cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20890" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20893" target="cancertype_breast">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20893" target="disease_Breast cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20893" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20893" target="study_20815">
+  <data key="d7">SHARES_DISEASE_WITH</data>
+  <data key="d8">1</data>
+</edge>
+<edge source="study_20896" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20896" target="disease_BCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20896" target="disease_SCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20896" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20899" target="cancertype_colorectal">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20899" target="disease_Colorectal cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20899" target="tech_SmartSeq2">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20902" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20902" target="disease_Gastric cancer">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20902" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20905" target="cancertype_hematologic">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20905" target="disease_Follicular lymphoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20905" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20908" target="cancertype_liverbiliary">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20908" target="disease_HCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20908" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20911" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20911" target="disease_HGSOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20911" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20914" target="cancertype_ovarian">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20914" target="disease_HGSOC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20914" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20917" target="cancertype_liverbiliary">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20917" target="disease_HCC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20917" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_20920" target="cancertype_lung">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_20920" target="disease_NSCLC">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_20920" target="tech_inDrop">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_133103" target="cancertype_skin">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_133103" target="disease_Metastatic melanoma">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_133103" target="tech_10x">
+  <data key="d7">USES_TECH</data>
+</edge>
+<edge source="study_6256973" target="cancertype_othermodels">
+  <data key="d7">STUDIES_CANCER_TYPE</data>
+</edge>
+<edge source="study_6256973" target="disease_Pituitary neuroendocrine tumors">
+  <data key="d7">HAS_DISEASE</data>
+</edge>
+<edge source="study_6256973" target="tech_Other">
+  <data key="d7">USES_TECH</data>
+</edge>
+</graph></graphml>
