@@ -69,7 +69,15 @@ python graph/build_graph.py
 python analysis/insights.py
 ```
 
-Launch the interactive Dashboard:
+Launch the internal Streamlit Dashboard:
 ```bash
 streamlit run app/dashboard.py
 ```
+
+Launch the Next.js Public Site:
+```bash
+cd site
+npm install
+npm run dev
+```
+Then navigate to http://localhost:3001 in your browser.
